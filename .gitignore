@@ -19,3 +19,8 @@ venv/
 # Generated output
 output/
 data/
+
+# Generated local artifacts
+artifacts/
+# Local test script
+test_normalization.py
