@@ -1,0 +1,16 @@
+source,country,count,percentage
+train_source1,US,1323633,59.9792
+train_source1,India,883188,40.0208
+train_source2,US,3016817,59.9215
+train_source2,India,2017799,40.0785
+train_source3,US,3170056,59.9753
+train_source3,India,2115547,40.0247
+test_source1,India,809986,46.7513
+test_source1,US,663106,38.2735
+test_source1,France,259452,14.9752
+test_source2,India,2312565,47.3181
+test_source2,US,1871330,38.2899
+test_source2,France,703378,14.392
+test_source3,India,2405000,47.3209
+test_source3,US,1945701,38.2837
+test_source3,France,731615,14.3953

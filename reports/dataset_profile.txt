@@ -1,0 +1,565 @@
+AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=AMAZON ML CHALLENGE 2026
+BUSINESS ENTITY RESOLUTION
+DATASET PROFILE / EDA
+=
+
+
+train_source1
+--------------------------------------------------
+Rows: 2,206,821
+Columns: entity_id, business_name, business_address, country
+
+Missingness:
+  entity_id: 0 (0.00%)
+  business_name: 0 (0.00%)
+  business_address: 0 (0.00%)
+  country: 0 (0.00%)
+
+Country distribution:
+  US: 1,323,633 (59.98%)
+  India: 883,188 (40.02%)
+
+Name length:
+{
+  "count": 2206821,
+  "mean": 24.034,
+  "std": 7.741,
+  "min": 3.0,
+  "max": 105.0
+}
+
+Address length:
+{
+  "count": 2206821,
+  "mean": 52.066,
+  "std": 25.33,
+  "min": 11.0,
+  "max": 256.0
+}
+
+Top names (chunk-based candidates):
+  253  Primary Care Group
+  250  Ear Nose & Throat Group
+  222  Pediatric Group
+  219  Womens Health Group
+  216  Pediatric Dental Group
+  215  Behavioral Health Group
+  209  Physical Therapy Group
+  209  Chiropractic Group
+  206  Eye Group
+  205  Dental Group
+  203  Family Group
+  199  Vision Group
+  198  Urgent Care Group
+  197  Orthopedic Group
+  196  Internal Medicine Group
+  193  Dermatology Group
+  191  Foot & Ankle Group
+  188  Pediatric Dentistry Group
+  187  Oncology Group
+  185  Urology Group
+
+train_source2
+--------------------------------------------------
+Rows: 5,034,616
+Columns: entity_id, business_name, business_address, country
+
+Missingness:
+  entity_id: 0 (0.00%)
+  business_name: 0 (0.00%)
+  business_address: 168,967 (3.36%)
+  country: 0 (0.00%)
+
+Country distribution:
+  US: 3,016,817 (59.92%)
+  India: 2,017,799 (40.08%)
+
+Name length:
+{
+  "count": 5034616,
+  "mean": 25.104,
+  "std": 8.895,
+  "min": 2.0,
+  "max": 104.0
+}
+
+Address length:
+{
+  "count": 4865649,
+  "mean": 47.831,
+  "std": 23.705,
+  "min": 8.0,
+  "max": 249.0
+}
+
+Top names (chunk-based candidates):
+  320  Primary Care
+  306  Physical Therapy
+  297  Urgent Care
+  296  Behavioral Health
+  293  Womens Health
+  287  Internal Medicine
+  270  Pediatric Dentistry
+  268  Pediatric Dental
+  263  earnosethroat.com
+  213  Ear Nose & Throat
+  192  The Dent
+  192  Foot & Ankle
+  184  Main Street
+  168  Commission on
+  158  Straight Edge
+  149  Meridian
+  137  Back Alley
+  133  Office of
+  129  Bureau of
+  114  Board of
+
+train_source3
+--------------------------------------------------
+Rows: 5,285,603
+Columns: entity_id, business_name, business_address, country
+
+Missingness:
+  entity_id: 0 (0.00%)
+  business_name: 0 (0.00%)
+  business_address: 175,916 (3.33%)
+  country: 0 (0.00%)
+
+Country distribution:
+  US: 3,170,056 (59.98%)
+  India: 2,115,547 (40.02%)
+
+Name length:
+{
+  "count": 5285603,
+  "mean": 25.202,
+  "std": 9.494,
+  "min": 2.0,
+  "max": 123.0
+}
+
+Address length:
+{
+  "count": 5109687,
+  "mean": 48.323,
+  "std": 20.178,
+  "min": 2.0,
+  "max": 240.0
+}
+
+Top names (chunk-based candidates):
+  421  Primary Care
+  399  Physical Therapy
+  393  Pediatric Dental
+  379  Womens Health
+  374  Urgent Care
+  361  Pediatric Dentistry
+  325  Behavioral Health
+  321  Pediatric
+  315  Internal Medicine
+  254  The Dent
+  248  Straight Edge
+  237  Foot & Ankle
+  231  earnosethroat.com
+  221  Ear Nose & Throat
+  215  Back Alley
+  213  Main Street
+  175  SC
+  175  Vision
+  174  Apex
+  156  SI
+
+test_source1
+--------------------------------------------------
+Rows: 1,732,544
+Columns: entity_id, business_name, business_address, country
+
+Missingness:
+  entity_id: 0 (0.00%)
+  business_name: 0 (0.00%)
+  business_address: 0 (0.00%)
+  country: 0 (0.00%)
+
+Country distribution:
+  India: 809,986 (46.75%)
+  US: 663,106 (38.27%)
+  France: 259,452 (14.98%)
+
+Name length:
+{
+  "count": 1732544,
+  "mean": 23.836,
+  "std": 7.669,
+  "min": 3.0,
+  "max": 92.0
+}
+
+Address length:
+{
+  "count": 1732544,
+  "mean": 57.213,
+  "std": 25.026,
+  "min": 11.0,
+  "max": 268.0
+}
+
+Top names (chunk-based candidates):
+  205  Bordeaux Club SARL
+  157  Nantes Club SARL
+  147  Lille Club SARL
+  123  Urgent Care Group
+  117  Nantes Club SAS
+  116  Lille Club SAS
+  112  Ear Nose & Throat Group
+  109  Bordeaux Club SAS
+  107  Bordeaux Amicale SARL
+  103  Internal Medicine Group
+  100  Eye Group
+  98  Urology Group
+  96  Bordeaux Amicale SAS
+  95  Primary Care Group
+  94  Pediatric Dental Group
+  93  Orthopedic Group
+  90  Behavioral Health Group
+  86  Pediatric Group
+  86  Chiropractic Group
+  85  Pediatric Dentistry Group
+
+test_source2
+--------------------------------------------------
+Rows: 4,887,273
+Columns: entity_id, business_name, business_address, country
+
+Missingness:
+  entity_id: 0 (0.00%)
+  business_name: 0 (0.00%)
+  business_address: 129,408 (2.65%)
+  country: 0 (0.00%)
+
+Country distribution:
+  India: 2,312,565 (47.32%)
+  US: 1,871,330 (38.29%)
+  France: 703,378 (14.39%)
+
+Name length:
+{
+  "count": 4887273,
+  "mean": 25.704,
+  "std": 9.125,
+  "min": 2.0,
+  "max": 102.0
+}
+
+Address length:
+{
+  "count": 4757865,
+  "mean": 51.785,
+  "std": 24.268,
+  "min": 5.0,
+  "max": 269.0
+}
+
+Top names (chunk-based candidates):
+  302  CC
+  187  PC
+  186  LC
+  164  AC
+  158  SC
+  143  Urgent Care
+  137  DC
+  136  MC
+  135  Womens Health
+  125  Pediatric Dentistry
+  123  CS
+  123  Bordeaux Club
+  122  Primary Care
+  121  TC
+  120  BC
+  119  maisondesant.com
+  118  Behavioral Health
+  115  Internal Medicine
+  114  Nantes Club
+  112  CA
+
+test_source3
+--------------------------------------------------
+Rows: 5,082,316
+Columns: entity_id, business_name, business_address, country
+
+Missingness:
+  entity_id: 0 (0.00%)
+  business_name: 0 (0.00%)
+  business_address: 136,098 (2.68%)
+  country: 0 (0.00%)
+
+Country distribution:
+  India: 2,405,000 (47.32%)
+  US: 1,945,701 (38.28%)
+  France: 731,615 (14.40%)
+
+Name length:
+{
+  "count": 5082316,
+  "mean": 25.655,
+  "std": 9.566,
+  "min": 2.0,
+  "max": 103.0
+}
+
+Address length:
+{
+  "count": 4946218,
+  "mean": 50.082,
+  "std": 21.44,
+  "min": 5.0,
+  "max": 267.0
+}
+
+Top names (chunk-based candidates):
+  387  CC
+  358  SC
+  297  AC
+  284  PC
+  245  LC
+  241  MC
+  222  BC
+  209  DC
+  207  Internal Medicine
+  206  RC
+  205  Urgent Care
+  204  CS
+  195  CA
+  185  TC
+  184  Pediatric Dentistry
+  184  SS
+  182  EC
+  177  Primary Care
+  175  AS
+  175  CF
+
+
+GROUND TRUTH
+======================================================================
+Rows: 2,206,821
+True singletons: 123,247 (5.58%)
+
+Match-count distribution:
+  0 matches: 123,247
+  1 matches: 119,157
+  2 matches: 375,212
+  3 matches: 530,841
+  4 matches: 484,115
+  5 matches: 321,957
+  6 matches: 164,868
+  7 matches: 63,968
+  8 matches: 18,680
+  9 matches: 4,205
+  10 matches: 534
+  11 matches: 37

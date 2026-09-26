@@ -1,0 +1,1364 @@
+{
+  "sources": {
+    "train_source1": {
+      "file": "train_source1.tsv",
+      "rows": 2206821,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "missingness": {
+        "entity_id": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_name": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_address": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "country": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        }
+      },
+      "name_length": {
+        "count": 2206821,
+        "mean": 24.034,
+        "std": 7.741,
+        "min": 3.0,
+        "max": 105.0
+      },
+      "address_length": {
+        "count": 2206821,
+        "mean": 52.066,
+        "std": 25.33,
+        "min": 11.0,
+        "max": 256.0
+      },
+      "top_names": [
+        {
+          "value": "Primary Care Group",
+          "count": 253
+        },
+        {
+          "value": "Ear Nose & Throat Group",
+          "count": 250
+        },
+        {
+          "value": "Pediatric Group",
+          "count": 222
+        },
+        {
+          "value": "Womens Health Group",
+          "count": 219
+        },
+        {
+          "value": "Pediatric Dental Group",
+          "count": 216
+        },
+        {
+          "value": "Behavioral Health Group",
+          "count": 215
+        },
+        {
+          "value": "Physical Therapy Group",
+          "count": 209
+        },
+        {
+          "value": "Chiropractic Group",
+          "count": 209
+        },
+        {
+          "value": "Eye Group",
+          "count": 206
+        },
+        {
+          "value": "Dental Group",
+          "count": 205
+        },
+        {
+          "value": "Family Group",
+          "count": 203
+        },
+        {
+          "value": "Vision Group",
+          "count": 199
+        },
+        {
+          "value": "Urgent Care Group",
+          "count": 198
+        },
+        {
+          "value": "Orthopedic Group",
+          "count": 197
+        },
+        {
+          "value": "Internal Medicine Group",
+          "count": 196
+        },
+        {
+          "value": "Dermatology Group",
+          "count": 193
+        },
+        {
+          "value": "Foot & Ankle Group",
+          "count": 191
+        },
+        {
+          "value": "Pediatric Dentistry Group",
+          "count": 188
+        },
+        {
+          "value": "Oncology Group",
+          "count": 187
+        },
+        {
+          "value": "Urology Group",
+          "count": 185
+        }
+      ],
+      "top_addresses": [
+        {
+          "value": "123 3rd Street, Molalla, OR",
+          "count": 7
+        },
+        {
+          "value": "4804 Gardenia Avenue, Glendale, AZ",
+          "count": 7
+        },
+        {
+          "value": "47 Overlook Road, Waltham, MA",
+          "count": 7
+        },
+        {
+          "value": "9326 Deveines Road, New Bremen, NY",
+          "count": 7
+        },
+        {
+          "value": "1626 Cambridge Way, Bowling Green, KY",
+          "count": 6
+        },
+        {
+          "value": "106 2nd Street, Palacios, TX",
+          "count": 6
+        },
+        {
+          "value": "8901 Mar-lynn Drive, Delmar, MD",
+          "count": 6
+        },
+        {
+          "value": "26, Pushpanjali, Khatena Road Phase-I, Agra, Uttar Pradesh",
+          "count": 6
+        },
+        {
+          "value": "16115 Birchview Drive, Tomball, TX",
+          "count": 6
+        },
+        {
+          "value": "3030 Rockingham Rd, Davenport, IA",
+          "count": 6
+        },
+        {
+          "value": "1110 A Brandy Hollow Road, Portland, TN",
+          "count": 6
+        },
+        {
+          "value": "1035 Atcheson Street, Unit 702, Columbus, OH",
+          "count": 6
+        },
+        {
+          "value": "B/1201, Birchwood Chs, Hiranandani Gardens Pawoi, Mumbai, Maharashtra",
+          "count": 6
+        },
+        {
+          "value": "1981 Washington Avenue, San Bernardino, CA",
+          "count": 6
+        },
+        {
+          "value": "734 1/2 1st Place, Mesa, AZ",
+          "count": 6
+        },
+        {
+          "value": "5983 E Alexandria Pike, Newport Ky, KY",
+          "count": 6
+        },
+        {
+          "value": "1534 Cardinal Lane, Village Of Howard, WI",
+          "count": 6
+        },
+        {
+          "value": "210 Washington Avenue, Elyria, OH",
+          "count": 6
+        },
+        {
+          "value": "520 Kathy Lane, Bldg 10, Dayton, TN",
+          "count": 6
+        },
+        {
+          "value": "43 Franklin Street, Delaware, OH",
+          "count": 6
+        }
+      ],
+      "country_distribution": [
+        {
+          "country": "US",
+          "count": 1323633,
+          "percentage": 59.9792
+        },
+        {
+          "country": "India",
+          "count": 883188,
+          "percentage": 40.0208
+        }
+      ]
+    },
+    "train_source2": {
+      "file": "train_source2.tsv",
+      "rows": 5034616,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "missingness": {
+        "entity_id": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_name": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_address": {
+          "missing_or_empty": 168967,
+          "missing_pct": 3.3561
+        },
+        "country": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        }
+      },
+      "name_length": {
+        "count": 5034616,
+        "mean": 25.104,
+        "std": 8.895,
+        "min": 2.0,
+        "max": 104.0
+      },
+      "address_length": {
+        "count": 4865649,
+        "mean": 47.831,
+        "std": 23.705,
+        "min": 8.0,
+        "max": 249.0
+      },
+      "top_names": [
+        {
+          "value": "Primary Care",
+          "count": 320
+        },
+        {
+          "value": "Physical Therapy",
+          "count": 306
+        },
+        {
+          "value": "Urgent Care",
+          "count": 297
+        },
+        {
+          "value": "Behavioral Health",
+          "count": 296
+        },
+        {
+          "value": "Womens Health",
+          "count": 293
+        },
+        {
+          "value": "Internal Medicine",
+          "count": 287
+        },
+        {
+          "value": "Pediatric Dentistry",
+          "count": 270
+        },
+        {
+          "value": "Pediatric Dental",
+          "count": 268
+        },
+        {
+          "value": "earnosethroat.com",
+          "count": 263
+        },
+        {
+          "value": "Ear Nose & Throat",
+          "count": 213
+        },
+        {
+          "value": "The Dent",
+          "count": 192
+        },
+        {
+          "value": "Foot & Ankle",
+          "count": 192
+        },
+        {
+          "value": "Main Street",
+          "count": 184
+        },
+        {
+          "value": "Commission on",
+          "count": 168
+        },
+        {
+          "value": "Straight Edge",
+          "count": 158
+        },
+        {
+          "value": "Meridian",
+          "count": 149
+        },
+        {
+          "value": "Back Alley",
+          "count": 137
+        },
+        {
+          "value": "Office of",
+          "count": 133
+        },
+        {
+          "value": "Bureau of",
+          "count": 129
+        },
+        {
+          "value": "Board of",
+          "count": 114
+        }
+      ],
+      "top_addresses": [
+        {
+          "value": "1335-1337 2300, NORTH LOGAN, UT",
+          "count": 7
+        },
+        {
+          "value": "3735 LAS PASAS WAY, SARCAMENTO CITY, CA",
+          "count": 6
+        },
+        {
+          "value": "SONA BANANA SUPPLIERSNEAR DATTAMANDIR AT POST RAVER, JALGAON, Maharashtra",
+          "count": 6
+        },
+        {
+          "value": "B A-403 MANSAROVAR BLDGSUCHIDHAM, MUMBAI, Maharashtra",
+          "count": 5
+        },
+        {
+          "value": "5267 HWY 124, NULL, CENTER RIDGE, AR",
+          "count": 5
+        },
+        {
+          "value": "1110 HENNESS ROAD, CASA GRANDE, AZ",
+          "count": 5
+        },
+        {
+          "value": "1, KOLKATA, HOWRAH, West Bengal",
+          "count": 5
+        },
+        {
+          "value": "G-58/1, BENSON CROSS ROAD, BANGALORE., Karnataka",
+          "count": 4
+        },
+        {
+          "value": "MAIN ST, MESA, AZ",
+          "count": 4
+        },
+        {
+          "value": "2356 POPLAR GROVE DR, OOLTEWAH, TN",
+          "count": 4
+        },
+        {
+          "value": "E-219, POCKET-3, GROUND FLOOR, DDA FLATS, BINDAPUR, UTTAM NAGAR, NEW DELHI, Delhi",
+          "count": 4
+        },
+        {
+          "value": "4012 YOUNG HILL LN, PORT ORCHARD, WA",
+          "count": 4
+        },
+        {
+          "value": "HN 160/9 708, 709, 710, B WING, 7TH FLOOR, BSEL TECH PARK, 30A, VASHI, THANE, Maharashtra",
+          "count": 4
+        },
+        {
+          "value": "631 A- OHIO STREET, VALLEJO, CA",
+          "count": 4
+        },
+        {
+          "value": "18001 BARLEYCORN WAY, GERMANTOWN, MD",
+          "count": 4
+        },
+        {
+          "value": "1222 THOMPSON AVENUE, BLUEFIELD, WV",
+          "count": 4
+        },
+        {
+          "value": "C/O BANKABIHARI PANDA, BANDUTIKIRA, BARGARH, Odisha",
+          "count": 4
+        },
+        {
+          "value": "1512 UPTON PLACE, IRVING, TX",
+          "count": 4
+        },
+        {
+          "value": "842 38, CALEDONAI TOWNSHIP, WI",
+          "count": 4
+        },
+        {
+          "value": "4319 1/2 ASHLEY PARK DRIVE, WILMINGTON, NC",
+          "count": 4
+        }
+      ],
+      "country_distribution": [
+        {
+          "country": "US",
+          "count": 3016817,
+          "percentage": 59.9215
+        },
+        {
+          "country": "India",
+          "count": 2017799,
+          "percentage": 40.0785
+        }
+      ]
+    },
+    "train_source3": {
+      "file": "train_source3.tsv",
+      "rows": 5285603,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "missingness": {
+        "entity_id": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_name": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_address": {
+          "missing_or_empty": 175916,
+          "missing_pct": 3.3282
+        },
+        "country": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        }
+      },
+      "name_length": {
+        "count": 5285603,
+        "mean": 25.202,
+        "std": 9.494,
+        "min": 2.0,
+        "max": 123.0
+      },
+      "address_length": {
+        "count": 5109687,
+        "mean": 48.323,
+        "std": 20.178,
+        "min": 2.0,
+        "max": 240.0
+      },
+      "top_names": [
+        {
+          "value": "Primary Care",
+          "count": 421
+        },
+        {
+          "value": "Physical Therapy",
+          "count": 399
+        },
+        {
+          "value": "Pediatric Dental",
+          "count": 393
+        },
+        {
+          "value": "Womens Health",
+          "count": 379
+        },
+        {
+          "value": "Urgent Care",
+          "count": 374
+        },
+        {
+          "value": "Pediatric Dentistry",
+          "count": 361
+        },
+        {
+          "value": "Behavioral Health",
+          "count": 325
+        },
+        {
+          "value": "Pediatric",
+          "count": 321
+        },
+        {
+          "value": "Internal Medicine",
+          "count": 315
+        },
+        {
+          "value": "The Dent",
+          "count": 254
+        },
+        {
+          "value": "Straight Edge",
+          "count": 248
+        },
+        {
+          "value": "Foot & Ankle",
+          "count": 237
+        },
+        {
+          "value": "earnosethroat.com",
+          "count": 231
+        },
+        {
+          "value": "Ear Nose & Throat",
+          "count": 221
+        },
+        {
+          "value": "Back Alley",
+          "count": 215
+        },
+        {
+          "value": "Main Street",
+          "count": 213
+        },
+        {
+          "value": "SC",
+          "count": 175
+        },
+        {
+          "value": "Vision",
+          "count": 175
+        },
+        {
+          "value": "Apex",
+          "count": 174
+        },
+        {
+          "value": "SI",
+          "count": 156
+        }
+      ],
+      "top_addresses": [
+        {
+          "value": "7, Kolkata, Howrah, WB",
+          "count": 10
+        },
+        {
+          "value": "2, Kolkata, Howrah, WB",
+          "count": 9
+        },
+        {
+          "value": "1, Kolkata, Howrah, WB",
+          "count": 9
+        },
+        {
+          "value": "303, Mumbai, MH",
+          "count": 8
+        },
+        {
+          "value": "301, Mumbai, MH",
+          "count": 8
+        },
+        {
+          "value": "Ground Floor, Bangalore, KA",
+          "count": 7
+        },
+        {
+          "value": "1, Kolkata, Howrah, পশ্চিমবঙ্গ",
+          "count": 6
+        },
+        {
+          "value": "11, Mumbai, MH",
+          "count": 6
+        },
+        {
+          "value": "16, Kolkata, Howrah, WB",
+          "count": 6
+        },
+        {
+          "value": "508-C Sorrells Dr, Jacksonville, Arkansas",
+          "count": 6
+        },
+        {
+          "value": "5, Chennai, TN",
+          "count": 6
+        },
+        {
+          "value": "12, Ahmedabad, GJ",
+          "count": 6
+        },
+        {
+          "value": "101, Mumbai, Mumbai City, MH",
+          "count": 6
+        },
+        {
+          "value": "No.3, Chennai, TN",
+          "count": 6
+        },
+        {
+          "value": "8, Kolkata, Howrah, WB",
+          "count": 6
+        },
+        {
+          "value": "02675 Falling Star Way, <NULL>, Camillus, New York",
+          "count": 6
+        },
+        {
+          "value": "2, Mumbai, MH",
+          "count": 6
+        },
+        {
+          "value": "1, Mumbai, MH",
+          "count": 6
+        },
+        {
+          "value": "1260 2738, Caddo Mills, Texas",
+          "count": 5
+        },
+        {
+          "value": "Ground Floor, Mumbai, MH",
+          "count": 5
+        }
+      ],
+      "country_distribution": [
+        {
+          "country": "US",
+          "count": 3170056,
+          "percentage": 59.9753
+        },
+        {
+          "country": "India",
+          "count": 2115547,
+          "percentage": 40.0247
+        }
+      ]
+    },
+    "test_source1": {
+      "file": "test_source1.tsv",
+      "rows": 1732544,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "missingness": {
+        "entity_id": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_name": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_address": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "country": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        }
+      },
+      "name_length": {
+        "count": 1732544,
+        "mean": 23.836,
+        "std": 7.669,
+        "min": 3.0,
+        "max": 92.0
+      },
+      "address_length": {
+        "count": 1732544,
+        "mean": 57.213,
+        "std": 25.026,
+        "min": 11.0,
+        "max": 268.0
+      },
+      "top_names": [
+        {
+          "value": "Bordeaux Club SARL",
+          "count": 205
+        },
+        {
+          "value": "Nantes Club SARL",
+          "count": 157
+        },
+        {
+          "value": "Lille Club SARL",
+          "count": 147
+        },
+        {
+          "value": "Urgent Care Group",
+          "count": 123
+        },
+        {
+          "value": "Nantes Club SAS",
+          "count": 117
+        },
+        {
+          "value": "Lille Club SAS",
+          "count": 116
+        },
+        {
+          "value": "Ear Nose & Throat Group",
+          "count": 112
+        },
+        {
+          "value": "Bordeaux Club SAS",
+          "count": 109
+        },
+        {
+          "value": "Bordeaux Amicale SARL",
+          "count": 107
+        },
+        {
+          "value": "Internal Medicine Group",
+          "count": 103
+        },
+        {
+          "value": "Eye Group",
+          "count": 100
+        },
+        {
+          "value": "Urology Group",
+          "count": 98
+        },
+        {
+          "value": "Bordeaux Amicale SAS",
+          "count": 96
+        },
+        {
+          "value": "Primary Care Group",
+          "count": 95
+        },
+        {
+          "value": "Pediatric Dental Group",
+          "count": 94
+        },
+        {
+          "value": "Orthopedic Group",
+          "count": 93
+        },
+        {
+          "value": "Behavioral Health Group",
+          "count": 90
+        },
+        {
+          "value": "Pediatric Group",
+          "count": 86
+        },
+        {
+          "value": "Chiropractic Group",
+          "count": 86
+        },
+        {
+          "value": "Pediatric Dentistry Group",
+          "count": 85
+        }
+      ],
+      "top_addresses": [
+        {
+          "value": "12 RUE Lyderic, Lille, Hauts-de-France",
+          "count": 99
+        },
+        {
+          "value": "27 RUE Jean Bart, Lille, Hauts-de-France",
+          "count": 83
+        },
+        {
+          "value": "30 RUE des Meuniers, Lille, Hauts-de-France",
+          "count": 72
+        },
+        {
+          "value": "27 RUE Jean Bart, Maison des Associations, Lille, Hauts-de-France",
+          "count": 67
+        },
+        {
+          "value": "100 RUE de Lille, Tourcoing, Hauts-de-France",
+          "count": 44
+        },
+        {
+          "value": "13 RUE du Chai des Farines, Bordeaux, Nouvelle-Aquitaine",
+          "count": 42
+        },
+        {
+          "value": "8 RUE Segalier, Bordeaux, Nouvelle-Aquitaine",
+          "count": 28
+        },
+        {
+          "value": "60 BD Vauban, Lille, Hauts-de-France",
+          "count": 26
+        },
+        {
+          "value": "24 AV Gustave Delory, Roubaix, Hauts-de-France",
+          "count": 22
+        },
+        {
+          "value": "3 RUE de la Digue, Lille, Hauts-de-France",
+          "count": 21
+        },
+        {
+          "value": "Terre-Plein du Jeu de Mail, Maison de la Vie Associative, Dunkerque, Hauts-de-France",
+          "count": 19
+        },
+        {
+          "value": "44 RUE Romain Rolland, Maison des Sports, Nantes, Pays de la Loire",
+          "count": 15
+        },
+        {
+          "value": "6 RUE Auber, Lille, Hauts-de-France",
+          "count": 14
+        },
+        {
+          "value": "104 AV du Peuple Belge, Lille, Hauts-de-France",
+          "count": 11
+        },
+        {
+          "value": "2 bis AV Albert de Mun, Maison des Associations, Saint-Nazaire, Pays de la Loire",
+          "count": 11
+        },
+        {
+          "value": "4 RUE de Lorraine, Maison des Associations, Pornic, Pays de la Loire",
+          "count": 11
+        },
+        {
+          "value": "24 PL de la Liberte, Roubaix, Hauts-de-France",
+          "count": 10
+        },
+        {
+          "value": "234 Rue de la Malcense, Tourcoing, Hauts-de-France",
+          "count": 9
+        },
+        {
+          "value": "51 Rue de Kerlor, Pornic, Pays de la Loire",
+          "count": 7
+        },
+        {
+          "value": "100 RUE de Lille, Maison des Associations, Tourcoing, Hauts-de-France",
+          "count": 7
+        }
+      ],
+      "country_distribution": [
+        {
+          "country": "India",
+          "count": 809986,
+          "percentage": 46.7513
+        },
+        {
+          "country": "US",
+          "count": 663106,
+          "percentage": 38.2735
+        },
+        {
+          "country": "France",
+          "count": 259452,
+          "percentage": 14.9752
+        }
+      ]
+    },
+    "test_source2": {
+      "file": "test_source2.tsv",
+      "rows": 4887273,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "missingness": {
+        "entity_id": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_name": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_address": {
+          "missing_or_empty": 129408,
+          "missing_pct": 2.6479
+        },
+        "country": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        }
+      },
+      "name_length": {
+        "count": 4887273,
+        "mean": 25.704,
+        "std": 9.125,
+        "min": 2.0,
+        "max": 102.0
+      },
+      "address_length": {
+        "count": 4757865,
+        "mean": 51.785,
+        "std": 24.268,
+        "min": 5.0,
+        "max": 269.0
+      },
+      "top_names": [
+        {
+          "value": "CC",
+          "count": 302
+        },
+        {
+          "value": "PC",
+          "count": 187
+        },
+        {
+          "value": "LC",
+          "count": 186
+        },
+        {
+          "value": "AC",
+          "count": 164
+        },
+        {
+          "value": "SC",
+          "count": 158
+        },
+        {
+          "value": "Urgent Care",
+          "count": 143
+        },
+        {
+          "value": "DC",
+          "count": 137
+        },
+        {
+          "value": "MC",
+          "count": 136
+        },
+        {
+          "value": "Womens Health",
+          "count": 135
+        },
+        {
+          "value": "Pediatric Dentistry",
+          "count": 125
+        },
+        {
+          "value": "CS",
+          "count": 123
+        },
+        {
+          "value": "Bordeaux Club",
+          "count": 123
+        },
+        {
+          "value": "Primary Care",
+          "count": 122
+        },
+        {
+          "value": "TC",
+          "count": 121
+        },
+        {
+          "value": "BC",
+          "count": 120
+        },
+        {
+          "value": "maisondesant.com",
+          "count": 119
+        },
+        {
+          "value": "Behavioral Health",
+          "count": 118
+        },
+        {
+          "value": "Internal Medicine",
+          "count": 115
+        },
+        {
+          "value": "Nantes Club",
+          "count": 114
+        },
+        {
+          "value": "CA",
+          "count": 112
+        }
+      ],
+      "top_addresses": [
+        {
+          "value": "27 RUE JEAN BART, LILLE",
+          "count": 72
+        },
+        {
+          "value": "CALAIS",
+          "count": 71
+        },
+        {
+          "value": "RUE LYDERIC, LILLE",
+          "count": 46
+        },
+        {
+          "value": "BORDEAUX",
+          "count": 42
+        },
+        {
+          "value": "30 RUE DES MEUNIERS, LILLE",
+          "count": 40
+        },
+        {
+          "value": "CALAIS, Hauts-de-France",
+          "count": 36
+        },
+        {
+          "value": "100 RUE DE LILLE, TOURCOING, Hauts-de-France",
+          "count": 35
+        },
+        {
+          "value": "CALAIS, Pas-de-Calais",
+          "count": 31
+        },
+        {
+          "value": "27 RUE JEAN BART, MAISON DES ASSOCIATIONS, LILLE",
+          "count": 22
+        },
+        {
+          "value": "24 - AV GUSTAVE DELORY, ROUBAIX, Hauts-de-France",
+          "count": 18
+        },
+        {
+          "value": "27 R JEAN BART, LILLE",
+          "count": 17
+        },
+        {
+          "value": "RUE DU CHAI DES FARINES, BORDEAUX, Gironde",
+          "count": 14
+        },
+        {
+          "value": "27 R. JEAN BART, LILLE",
+          "count": 11
+        },
+        {
+          "value": "60 BD VAUBAN, LILLE",
+          "count": 10
+        },
+        {
+          "value": "30 R DES MEUNIERS, LILLE",
+          "count": 10
+        },
+        {
+          "value": "24 PL DE LA LIBERTE, ROUBAIX, Hauts-de-France",
+          "count": 8
+        },
+        {
+          "value": "40 RUE PHILIPPE LEBON, LILLE, Nord",
+          "count": 7
+        },
+        {
+          "value": "27 R JEAN BART, MAISON DES ASSOCIATIONS, LILLE",
+          "count": 7
+        },
+        {
+          "value": "(60) BD VAUBAN, LILLE, Nord",
+          "count": 7
+        },
+        {
+          "value": "PL DELIOT, LILLE, Nord",
+          "count": 7
+        }
+      ],
+      "country_distribution": [
+        {
+          "country": "India",
+          "count": 2312565,
+          "percentage": 47.3181
+        },
+        {
+          "country": "US",
+          "count": 1871330,
+          "percentage": 38.2899
+        },
+        {
+          "country": "France",
+          "count": 703378,
+          "percentage": 14.392
+        }
+      ]
+    },
+    "test_source3": {
+      "file": "test_source3.tsv",
+      "rows": 5082316,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "missingness": {
+        "entity_id": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_name": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        },
+        "business_address": {
+          "missing_or_empty": 136098,
+          "missing_pct": 2.6779
+        },
+        "country": {
+          "missing_or_empty": 0,
+          "missing_pct": 0.0
+        }
+      },
+      "name_length": {
+        "count": 5082316,
+        "mean": 25.655,
+        "std": 9.566,
+        "min": 2.0,
+        "max": 103.0
+      },
+      "address_length": {
+        "count": 4946218,
+        "mean": 50.082,
+        "std": 21.44,
+        "min": 5.0,
+        "max": 267.0
+      },
+      "top_names": [
+        {
+          "value": "CC",
+          "count": 387
+        },
+        {
+          "value": "SC",
+          "count": 358
+        },
+        {
+          "value": "AC",
+          "count": 297
+        },
+        {
+          "value": "PC",
+          "count": 284
+        },
+        {
+          "value": "LC",
+          "count": 245
+        },
+        {
+          "value": "MC",
+          "count": 241
+        },
+        {
+          "value": "BC",
+          "count": 222
+        },
+        {
+          "value": "DC",
+          "count": 209
+        },
+        {
+          "value": "Internal Medicine",
+          "count": 207
+        },
+        {
+          "value": "RC",
+          "count": 206
+        },
+        {
+          "value": "Urgent Care",
+          "count": 205
+        },
+        {
+          "value": "CS",
+          "count": 204
+        },
+        {
+          "value": "CA",
+          "count": 195
+        },
+        {
+          "value": "TC",
+          "count": 185
+        },
+        {
+          "value": "Pediatric Dentistry",
+          "count": 184
+        },
+        {
+          "value": "SS",
+          "count": 184
+        },
+        {
+          "value": "EC",
+          "count": 182
+        },
+        {
+          "value": "Primary Care",
+          "count": 177
+        },
+        {
+          "value": "AS",
+          "count": 175
+        },
+        {
+          "value": "CF",
+          "count": 175
+        }
+      ],
+      "top_addresses": [
+        {
+          "value": "Calais",
+          "count": 76
+        },
+        {
+          "value": "27 Rue Jean Bart, Lille",
+          "count": 65
+        },
+        {
+          "value": "Calais, Pas-de-Calais",
+          "count": 64
+        },
+        {
+          "value": "12 Rue Lyderic, Lille, Nord",
+          "count": 58
+        },
+        {
+          "value": "Calais, Hauts-de-France",
+          "count": 56
+        },
+        {
+          "value": "30 Rue Des Meuniers, Lille, Hauts-de-France",
+          "count": 36
+        },
+        {
+          "value": "Bordeaux, Gironde",
+          "count": 29
+        },
+        {
+          "value": "#27 Rue Jean Bart, Maison Des Associations, Lille, Hauts-de-France",
+          "count": 25
+        },
+        {
+          "value": "Terre-plein Du Jeu De Mail, Maison De La Vie Associative, Dunkerque",
+          "count": 18
+        },
+        {
+          "value": "024 Av Gustave Delory, Roubaix, Hauts-de-France",
+          "count": 17
+        },
+        {
+          "value": "Floor, Mumbai, MH",
+          "count": 16
+        },
+        {
+          "value": "4, Kolkata, Howrah, WB",
+          "count": 14
+        },
+        {
+          "value": "13 Rue Du Chai Des Farines, Bordeaux, Gironde",
+          "count": 14
+        },
+        {
+          "value": "Lille",
+          "count": 14
+        },
+        {
+          "value": "12 R. Lyderic, Lille, Nord",
+          "count": 14
+        },
+        {
+          "value": "100 Rue De Lille, Tourcoing",
+          "count": 13
+        },
+        {
+          "value": "27 R Jean Bart, Lille",
+          "count": 12
+        },
+        {
+          "value": "27 R. Jean Bart, Lille",
+          "count": 12
+        },
+        {
+          "value": "104 Av Du Peuple Belge, Lille, Hauts-de-France",
+          "count": 12
+        },
+        {
+          "value": "6, Kolkata, Howrah, WB",
+          "count": 10
+        }
+      ],
+      "country_distribution": [
+        {
+          "country": "India",
+          "count": 2405000,
+          "percentage": 47.3209
+        },
+        {
+          "country": "US",
+          "count": 1945701,
+          "percentage": 38.2837
+        },
+        {
+          "country": "France",
+          "count": 731615,
+          "percentage": 14.3953
+        }
+      ]
+    }
+  },
+  "ground_truth": {
+    "rows": 2206821,
+    "singleton_count": 123247,
+    "singleton_percentage": 5.5848,
+    "empty_match_strings": 123247,
+    "match_count_distribution": {
+      "0": 123247,
+      "1": 119157,
+      "2": 375212,
+      "3": 530841,
+      "4": 484115,
+      "5": 321957,
+      "6": 164868,
+      "7": 63968,
+      "8": 18680,
+      "9": 4205,
+      "10": 534,
+      "11": 37
+    },
+    "s2_match_distribution": {
+      "0": 287745,
+      "1": 789108,
+      "2": 652779,
+      "3": 333957,
+      "4": 119078,
+      "5": 24154
+    },
+    "s3_match_distribution": {
+      "0": 266276,
+      "1": 716417,
+      "2": 668375,
+      "3": 372443,
+      "4": 145116,
+      "5": 35378,
+      "6": 2816
+    }
+  }
+}
