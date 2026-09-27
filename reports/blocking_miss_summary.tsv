@@ -1,0 +1,5 @@
+reason	missed_pairs	share_of_misses	share_of_all_true_pairs
+shared_name_and_address_tokens_but_all_suppressed	1000	0.4416961130742049	0.028775322283609576
+shared_address_tokens_but_suppressed	926	0.4090106007067138	0.02664594843462247
+shared_name_tokens_but_suppressed	337	0.14885159010600707	0.009697283609576427
+no_exact_or_indexed_token_evidence	1	0.00044169611307420494	2.8775322283609577e-05
